@@ -397,7 +397,6 @@ int power_hint_override(struct power_module *module __unused, power_hint_t hint,
         return HINT_HANDLED;
 	}
 
-
     if (hint == POWER_HINT_VIDEO_ENCODE) {
         process_video_encode_hint(data);
         return HINT_HANDLED;
